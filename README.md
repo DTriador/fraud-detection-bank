@@ -85,7 +85,8 @@ modelo y el analista de riesgo que consume la alerta en su trabajo diario.
 
 - **Python**: pandas, scikit-learn, SHAP, matplotlib/seaborn
 - **IA Generativa**: Hugging Face Inference API (Qwen2.5-7B-Instruct)
-- **SQL**: [COMPLETAR]
+- **SQL**: SQLite, window functions (RANK), CTEs, agregaciones — identificó una concentración 
+anómala de falsos positivos en horario nocturno (21-22h, ~90% vs. ~45% en el resto del día)
 - **Visualización**: Power BI
 
 ## Resultados clave
