@@ -87,10 +87,13 @@ Para complementar el análisis técnico, se construyó un dashboard en Power BI 
 4. **Los que se escaparon**: perfil de los 12 falsos negativos, con las variables SHAP que más influyeron en cada caso.
 5. **Drift temporal**: evolución de la tasa de fraude a lo largo de las 48 horas del dataset, marcando el punto de corte entre train y test.
 
+### Vista general
 
 ![Overview de negocio](imagenes/overview.png)
-![Los que se escaparon](imagenes/pag4.png)
 
+### Casos no detectados
+
+![Los que se escaparon](imagenes/pag4.png)
 
 
 El archivo `.pbix` está disponible en `powerbi/fraude_bank.pbix`. Los datos que consume se generan desde `notebooks/01_eda.ipynb` (celda de exports al final del notebook) y se guardan en `data/powerbi/`.
